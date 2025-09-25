@@ -1,0 +1,5 @@
+REFERENCES
+
+Yang S, Hu H, Kung H, Zou R, Dai Y, Hu Y, Wang T, Lv T, Yu J, Li F. Organoids: The current status and biomedical applications. MedComm (2020). 2023 May 17;4(3):e274. doi: 10.1002/mco2.274. PMID: 37215622; PMCID: PMC10192887.
+https://www.hsci.harvard.edu/organoids
+https://www.mblbio.com/bio/g/product/cell-culture/article/organoid_overview.html
