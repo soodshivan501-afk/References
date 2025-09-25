@@ -1,5 +1,172 @@
-REFERENCES
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Organoid — References</title>
+  <style>
+    :root{
+      --bg:#0f1113;
+      --card:#111416;
+      --muted:#9aa6b2;
+      --accent:#7bd389;
+      --text:#e6eef3;
+      --maxw:900px;
+    }
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,var(--bg),#071018 140%);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px 12px;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+    }
+    header{
+      margin-bottom:18px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    header h1{
+      margin:0;
+      font-size:20px;
+      letter-spacing:0.2px;
+    }
+    header p{ margin:0; color:var(--muted); font-size:13px; }
 
-Yang S, Hu H, Kung H, Zou R, Dai Y, Hu Y, Wang T, Lv T, Yu J, Li F. Organoids: The current status and biomedical applications. MedComm (2020). 2023 May 17;4(3):e274. doi: 10.1002/mco2.274. PMID: 37215622; PMCID: PMC10192887.
-https://www.hsci.harvard.edu/organoids
-https://www.mblbio.com/bio/g/product/cell-culture/article/organoid_overview.html
+    .card{
+      background:linear-gradient(180deg,var(--card),#0b0d0f);
+      border-radius:12px;
+      padding:16px;
+      box-shadow: 0 6px 24px rgba(3,6,8,0.6);
+      margin-bottom:12px;
+    }
+
+    h2{ margin:0 0 8px 0; font-size:16px; }
+    ul{ margin:8px 0 0 18px; padding:0; color:var(--muted); }
+    li{ margin-bottom:10px; line-height:1.4; }
+
+    .cite-title{ color:var(--text); font-weight:600; display:block; margin-bottom:4px; }
+    .meta{ color:var(--muted); font-size:13px; }
+    a.link{
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+      font-size:13px;
+    }
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+    .tag{ display:inline-block; padding:6px 8px; border-radius:8px; background:rgba(255,255,255,0.02); color:var(--muted); font-size:12px; margin-right:6px; }
+    @media (max-width:520px){
+      header h1{ font-size:18px; }
+      .card{ padding:12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Organoids — Selected References & Resources</h1>
+        <p>Concise, poster-ready list of foundational papers, protocols and drug references. Use the links or replace with your uploaded PDFs.</p>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="foundational">
+      <h2 id="foundational">Foundational papers</h2>
+      <ul>
+        <li>
+          <span class="cite-title">Thomson, J. A. et al. (1998). <span class="meta">Derivation of human embryonic stem cell lines.</span></span>
+          <span class="meta">Science. [add link or DOI]</span>
+        </li>
+
+        <li>
+          <span class="cite-title">Takahashi, K. & Yamanaka, S. (2006). <span class="meta">Induction of pluripotent stem cells from mouse/human fibroblasts.</span></span>
+          <span class="meta">Cell. [add link or DOI]</span>
+        </li>
+
+        <li>
+          <span class="cite-title">Sato, T., Vries, R. G., Snippert, H. J., et al. (2009). <span class="meta">Single Lgr5 stem cells build crypt–villus structures in vitro.</span></span>
+          <span class="meta">Nature. [add link or DOI]</span>
+        </li>
+
+        <li>
+          <span class="cite-title">Lancaster, M. A. & Knoblich, J. A. (2013). <span class="meta">Cerebral organoids model human brain development and microcephaly.</span></span>
+          <span class="meta">Nature. [add link or DOI]</span>
+        </li>
+
+        <li>
+          <span class="cite-title">Clevers, H. (2016). <span class="meta">Modeling development and disease with organoids.</span></span>
+          <span class="meta">Cell. [review — add link if desired]</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="protocols">
+      <h2 id="protocols">Protocols & Methods</h2>
+      <ul>
+        <li>
+          <span class="cite-title">Organoid culture protocols (intestinal, cerebral, liver)</span>
+          <span class="meta">See: Nature Protocols / Current Protocols in Stem Cell Biology. <a class="link" href="#" target="_blank">Add protocol PDF or link</a></span>
+        </li>
+
+        <li>
+          <span class="cite-title">Practical tips</span>
+          <span class="meta">ECM scaffolds (Matrigel), growth factor cocktails, passaging and cryopreservation. <a class="link" href="#" target="_blank">Add lab note / PDF</a></span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="drug-resources">
+      <h2 id="drug-resources">Drug resources (for testing & safety)</h2>
+      <ul>
+        <li>
+          <span class="cite-title">Doxorubicin — toxicity & usage</span>
+          <span class="meta">Clinical summaries and safety data. <a class="link" href="#" target="_blank">Add drug monograph / PubMed / Drugs.com</a></span>
+        </li>
+
+        <li>
+          <span class="cite-title">Cisplatin, Paclitaxel, 5-FU, Remdesivir, Dexamethasone</span>
+          <span class="meta">Mechanisms & effects — relevant for organoid perturbation experiments. <a class="link" href="#" target="_blank">Add links</a></span>
+        </li>
+
+        <li>
+          <span class="cite-title">Regulatory & biosafety</span>
+          <span class="meta">Institutional guidelines, IBC approvals, and chemical handling. <a class="link" href="#" target="_blank">Add local policy / PDF</a></span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="further">
+      <h2 id="further">Further reading & reviews</h2>
+      <ul>
+        <li><span class="cite-title">Review: Organoids for disease modelling</span><span class="meta"> — add link</span></li>
+        <li><span class="cite-title">Review: Organoids in drug discovery & precision medicine</span><span class="meta"> — add link</span></li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="how-to-cite">
+      <h2 id="how-to-cite">How to use / cite</h2>
+      <p class="meta" style="margin:0;">
+        • Prefer primary research articles for citations (use DOI or PubMed links).<br />
+        • For protocols, link to the exact protocol paper or an authoritative methods repository.<br />
+        • If you upload PDFs to this repo, replace the <code>href="#"</code> attributes above with the raw file link: <code>/blob/main/references/yourfile.pdf</code>.
+      </p>
+    </section>
+
+    <footer class="card" style="text-align:center;">
+      <div style="margin-bottom:8px;">
+        <span class="tag">Prepared for: Organoid poster</span>
+        <span class="tag">Date: <!-- optional: insert date --> </span>
+      </div>
+      <div class="meta">You can edit this file directly on GitHub to paste exact links r upload PDFs into the repository and link them above.</div>
+    </footer>
+  </div>
+</body>
+</html>
